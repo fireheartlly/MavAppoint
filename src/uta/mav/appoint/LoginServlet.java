@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
 			}
 			else{
 				//redirect back to login if authentication fails
-				//need to add a "invalid username or password" response
+				//need to add a "invalid username or password" response;
 				response.sendRedirect("login");
 			}
 		}
